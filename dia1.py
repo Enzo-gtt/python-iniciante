@@ -14,3 +14,13 @@ datetime_atual = agora.strftime("%d/%m/%y")
 print(datetime_atual)
 
 ----------------------------------------------------------------
+
+idade = int(input("qual sua idade: "))
+carteira = input("voce tem carteira? ").lower().strip()
+
+if idade >= 18 and carteira == "sim":
+    print("pode dirigir")
+else:
+    print("nao pode dirigir")
+
+-----------------------------------------------------------------
